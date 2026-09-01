@@ -1,0 +1,228 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Projeto Sandbox",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-Sandbox",
+            "program": "${workspaceFolder}/sandbox/Sandbox/bin/Debug/net8.0/Sandbox.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/Sandbox",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 01: C# Exercicio 1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana01-Exercicio1",
+            "program": "${workspaceFolder}/semana01/Exercicio1/bin/Debug/net8.0/Exercicio1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana01/Exercicio1",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 01: C# Exercicio 2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana01-Exercicio2",
+            "program": "${workspaceFolder}/semana01/Exercicio2/bin/Debug/net8.0/Exercicio2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana01/Exercicio2",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 01: C# Exercicio 3",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana01-Exercicio3",
+            "program": "${workspaceFolder}/semana01/Exercicio3/bin/Debug/net8.0/Exercicio3.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana01/Exercicio3",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 01: C# Exercicio 4",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana01-Exercicio4",
+            "program": "${workspaceFolder}/semana01/Exercicio4/bin/Debug/net8.0/Exercicio4.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana01/Exercicio4",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 01: C# Exercicio 5",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana01-Exercicio5",
+            "program": "${workspaceFolder}/semana01/Exercicio5/bin/Debug/net8.0/Exercicio5.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana01/Exercicio5",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 02: Curriculo",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana02-Curriculo",
+            "program": "${workspaceFolder}/semana02/Curriculo/bin/Debug/net8.0/Curriculo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana02/Curriculo",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 02: Diario",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana02-Diario",
+            "program": "${workspaceFolder}/semana02/Diario/bin/Debug/net8.0/Diario.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana02/Diario",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 03: Fracoes",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana03-Fracoes",
+            "program": "${workspaceFolder}/semana03/Fracoes/bin/Debug/net8.0/Fracoes.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana03/Fracoes",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 03: Memorizador Escrituras",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana03-MemorizadorEscrituras",
+            "program": "${workspaceFolder}/semana03/MemorizadorEscrituras/bin/Debug/net8.0/MemorizadorEscrituras.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana03/MemorizadorEscrituras",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 04: Videos YouTube",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana04-VideosYouTube",
+            "program": "${workspaceFolder}/semana04/VideosYouTube/bin/Debug/net8.0/VideosYouTube.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana04/VideosYouTube",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 04: Pedidos Online",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana04-PedidosOnline",
+            "program": "${workspaceFolder}/semana04/PedidosOnline/bin/Debug/net8.0/PedidosOnline.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana04/PedidosOnline",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 05: Tarefas",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana05-Tarefas",
+            "program": "${workspaceFolder}/semana05/Tarefas/bin/Debug/net8.0/Tarefas.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana05/Tarefas",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 05: Introspeccao",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana05-Introspeccao",
+            "program": "${workspaceFolder}/semana05/Introspeccao/bin/Debug/net8.0/Introspeccao.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana05/Introspeccao",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 06: Figuras",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana06-Figuras",
+            "program": "${workspaceFolder}/semana06/Figuras/bin/Debug/net8.0/Figuras.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana06/Figuras",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 06: Metas Eternas",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana06-MetasEternas",
+            "program": "${workspaceFolder}/semana06/MetasEternas/bin/Debug/net8.0/MetasEternas.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana06/MetasEternas",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Semana 07: Monitoramento Exercicios",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-semana07-MonitoramentoExercicios",
+            "program": "${workspaceFolder}/semana07/MonitoramentoExercicios/bin/Debug/net8.0/MonitoramentoExercicios.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/semana07/MonitoramentoExercicios",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+    ]
+}
