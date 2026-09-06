@@ -1,0 +1,14 @@
+Converer tipos
+
+Texto para Int
+int.Parse()
+
+Inteiro para Texto
+int.ToString();
+
+Se dividir por %10 vai pegar a sobre
+
+Laços 
+Do-While  LOOP
+
+Funciona igual o While com exceção de que o corpo do loop é excutado uma vez, 
