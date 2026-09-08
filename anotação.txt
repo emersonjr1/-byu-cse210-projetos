@@ -1,22 +1,22 @@
 Converer tipos
 
-Texto para Int
-int.Parse()
+    Texto para Int
+    int.Parse()
 
-Inteiro para Texto
-int.ToString();
+    Inteiro para Texto
+    int.ToString();
 
-Se dividir por %10 vai pegar a sobre
+    Se dividir por %10 vai pegar a sobre
 
-Laços 
-Do-While  LOOP
+    Laços 
+    Do-While  LOOP
 
-Funciona igual o While com exceção de que o corpo do loop é excutado uma vez, 
+    Funciona igual o While com exceção de que o corpo do loop é excutado uma vez, 
 
 
-Numeros Aleatorios 
-    Random()
-    .Next()
+    Numeros Aleatorios 
+        Random()
+        .Next()
 
 
 LISTAS
@@ -47,4 +47,36 @@ Em listas sempre usamos List e colocamos o tipo entre <>, sempre declara ela e d
         }
 
 
+FUNÇÃO
 
+    A estrutura geral de uma definição de função em C# é:
+    Não há necessidade ter parametros. 
+
+    tipoDeRetorno NomeFuncao(tipoDeDados parametro1, tipoDeDados parametro2)
+    {
+        // corpo_da_funcao
+    }
+
+    Se não tem retorno se usa VOID ex.:
+    void ExibirMensagemPessoal(string nomeUsuario)
+    {
+        Console.WriteLine($"Olá {nomeUsuario}");
+    }
+
+    Retorno usa String ou Int, Double etc...
+
+    Use static para todas as suas funções até começarmos a escrever classes.
+    static int SomarNumeros(int primeiro, int segundo)
+    {
+        int soma = primeiro + segundo;
+        return soma;
+    }
+
+
+    Para esta tarefa, crie um programa em C# que tenha várias funções simples:
+
+ExibirBoasVindas – Exibe a mensagem “Bem-Vindo ao Programa!"
+PerguntarNomeUsuario – Solicita e retorna o nome do usuário (como uma string).
+PerguntarNumeroFavorito – Solicita e retorna o número favorito do usuário (como um número inteiro).
+ElevarAoQuadrado – Aceita um número inteiro como parâmetro e retorna esse número ao quadrado (como um número inteiro).
+ExibirResultado – Aceita o nome do usuário e o número elevado ao quadrado e os exibe.
