@@ -12,3 +12,39 @@ Laços
 Do-While  LOOP
 
 Funciona igual o While com exceção de que o corpo do loop é excutado uma vez, 
+
+
+Numeros Aleatorios 
+    Random()
+    .Next()
+
+
+LISTAS
+Em listas sempre usamos List e colocamos o tipo entre <>, sempre declara ela e depois usa como new. 
+    List<string> | List<int>
+    List<int> numeros;
+    numeros = new List<int>();
+
+    ADD em List
+        List<string> palavras = new List<string>();
+
+        palavras.Add("Telefone");
+        palavras.Add("Teclado);
+
+    COUNT - Tamanho da lista
+        Console.WriteLine(palavras.Count);
+    
+    ForEach - Percorrer listas
+        foreach (string palavra in palavras)
+        {
+            Console.WriteLine(palavra);
+        }
+    
+    Acessamdo Indices 
+        for (int i=0; i < palavras.Count; i++)
+        {
+            Console.WriteLine(palavras[i]);
+        }
+
+
+
