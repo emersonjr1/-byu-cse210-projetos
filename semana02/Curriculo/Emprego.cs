@@ -1,3 +1,5 @@
+using System;
+
 public class Emprego
 {
     public string _empresa;
