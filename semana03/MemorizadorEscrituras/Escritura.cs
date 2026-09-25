@@ -3,31 +3,32 @@ using System.Collections.Generic;
 
 public class Escritura
 {
-    private Referencia _referencia;
+    public Referencia _referencia;
     private List<Palavra> _palavras = new List<Palavra>();
 
-    public Escrituras(Referencia referencia, string texto)
-    {
+    public Escritura(Referencia referencia, string texto)
+    {   
         _referencia = referencia;
 
-        string[] palavrasArray = texto.Split(' ');
-        foreach (string p in palavrasArray)
+        string[] palavrasArray = texto.Split(" ");
+
+        foreach (string palavra in palavrasArray)
         {
-            _palavras.Add(new Palavra(p));
+            _palavras.Add(new Palavra(palavra));
         }
     }
 
     public void OcultarPalavrasAleatorias(int numeroParaOcultar)
     {
         Random random = new Random();
-        List<Palavra> palavrasVisiveis = new List<Palavra>();
 
-        // 1. Filtra apenas as palavras que ainda não estão ocultas
-        foreach (Palavra p in _palavras)
+        List<Palavra> palavrasVisiveis = new List<Palavra>();
+      
+        foreach (Palavra palavra in _palavras)
         {
-            if (!p.EstaOculta())
+            if (!palavra.EstaOculta())
             {
-                palavrasVisiveis.Add(p);
+                palavrasVisiveis.Add(palavra);
             }
         }
 

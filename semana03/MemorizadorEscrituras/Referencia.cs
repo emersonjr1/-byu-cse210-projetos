@@ -1,6 +1,6 @@
 using System;
 
-class Referencia
+public class Referencia
 {
     private string _livro;
     private int _capitulo;
