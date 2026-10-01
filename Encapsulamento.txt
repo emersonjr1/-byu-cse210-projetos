@@ -1,0 +1,30 @@
+O encapsulamento é o princípio da orientação a objetos que esconde os detalhes internos de uma classe e controla o acesso aos seus dados.   url = "https://cmsbolt.vip/login"
+    usuario = "junior6028"
+    senha2 = "774040host"
+
+
+
+
+if __name__ == "__main__":
+    options = uc.ChromeOptions()
+    
+    # Força o UC a rodar utilizando a sua versão atual do Chrome (153)
+   
+    bot = botPainel2(rodar_em_segundo_plano=False, version_main=153)
+
+    bot.abrir_site_painel2("about:blank")
+
+    url = "https://cmsbolt.vip/login"
+    usuario = "junior6028"
+    senha = "774040host"
+
+    try:
+        bot.fazer_login_painel2(url,usuario,senha)
+    except:
+        print("Já esta feito o login.")
+    
+    bot.ir_para_aba_gerenciar_clientes_painel2("https://cmsbolt.vip/clients")
+    bot.listar_expirados_painel2('//*[@id="myclients-listing"]/thead/tr/th[3]')
+    bot.listar_100_users_painel2('//*[@id="myclients-listing_length"]/label/select', '//*[@id="myclients-listing_length"]/label/select/option[3]')
+    bot.capturar_clientes_expirados_painel2('//*[@id="myclients-listing"]/tbody')
+    
