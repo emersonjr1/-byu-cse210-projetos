@@ -8,7 +8,7 @@ public class Video
     public int DuracaoSegundos;
     public List<Comentario> Comentarios = new List<Comentario>();
 
-    // Método que retorna quantos comentários tem
+    // Método que retorna quantos comentários
     public int NumeroDeComentarios()
     {
         return Comentarios.Count;

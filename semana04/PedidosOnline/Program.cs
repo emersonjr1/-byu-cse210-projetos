@@ -32,4 +32,4 @@ public class Program
         Console.WriteLine(pedido2.EtiquetaEnvio());
         Console.WriteLine("Total do pedido: $" + pedido2.CalcularTotal());
     }
-}
+};
