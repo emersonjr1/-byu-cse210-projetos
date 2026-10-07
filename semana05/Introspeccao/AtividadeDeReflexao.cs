@@ -33,10 +33,10 @@ public class AtividadeDeReflexao : Atividade
 
     public void Executar()
     {
-        // 1. Mensagem inicial (exibe nome, descrição e pede a duração em segundos)
+         
         ExibirMensagemInicial();
 
-        // 2. Apresenta o prompt principal de reflexão
+        
         Console.WriteLine("Considere a seguinte instrução:\n");
         Console.WriteLine($"--- {ObterReflexaoAleatoria()} ---");
         Console.WriteLine("\nQuando você tiver algo em mente, pressione ENTER para continuar.");
@@ -47,7 +47,7 @@ public class AtividadeDeReflexao : Atividade
         ExibirContagemRegressiva(5);
         Console.Clear();
 
-        // 3. Loop de perguntas que roda durante o tempo definido pelo usuário (_duracao)
+         
         DateTime horaInicio = DateTime.Now;
         DateTime horaFim = horaInicio.AddSeconds(_duracao);
 

@@ -34,9 +34,9 @@ public void Executar()
     Console.WriteLine();
 
     List<string> itens = ObterListaDoUsuario();
-    _contador = itens.Count; // Atribui o total de itens
+    _contador = itens.Count; 
 
-    // Use _contador aqui em vez de itens.Count!
+
     Console.WriteLine($"\nVocê listou {_contador} itens!");
 
     ExibirMensagemFinal();
