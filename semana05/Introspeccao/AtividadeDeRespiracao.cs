@@ -12,13 +12,13 @@ public class AtividadeDeRespiracao : Atividade
 
     public void Executar()
     {
-      
         ExibirMensagemInicial();
 
         DateTime horaInicio = DateTime.Now;
         DateTime horaFim = horaInicio.AddSeconds(_duracao);
 
-        
+
+        while (DateTime.Now < horaFim)
         {
             Console.Write("Inspire...");
             ExibirContagemRegressiva(4);   
@@ -29,7 +29,6 @@ public class AtividadeDeRespiracao : Atividade
             Console.WriteLine("\n");
         }
 
-         
         ExibirMensagemFinal();
     }
 }
