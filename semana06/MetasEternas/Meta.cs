@@ -1,8 +1,9 @@
-public class Meta{
+using System;
+public abstract class Meta{
 
-    private string _nome;
-    private string _descricao;
-    private int _pontos;
+    protected string _nome;
+    protected string _descricao;
+    protected int _pontos;
 
 
     public Meta(string nome, string descricao, int pontos)
@@ -12,10 +13,14 @@ public class Meta{
         _descricao = descricao;
         _pontos = pontos;
         
-        
-
 
     }
 
-    
+
+    public abstract void RegistrarEvento();
+    public abstract bool EstaConcluida();
+    public abstract string ObterDetalhesEmTexto();
+    public abstract string ObterRepresentacaoEmTexto();
+
+
 }
